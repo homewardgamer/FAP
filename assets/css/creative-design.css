@@ -11272,7 +11272,7 @@ section.p-md {
   padding: 60px 0 !important;
 }
 .gallery-img{
-  height: 10% !important;
+  height: 400px ;
 }
 section.has-bg-img {
   background-image: url(../imgs/bg-img-1.jpg);
