@@ -11184,7 +11184,7 @@ nav.page-navbar.affix .navbar-brand .text-dark {
   text-align: center;
   color: white;
   position: relative;
-  height: 598px;
+  height: 500px;
   position: relative;
 }
 
@@ -11200,7 +11200,7 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 .header .header-content {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 48%;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -11388,7 +11388,7 @@ section.height-auto {
 
 /* about */
 .about-wrapper {
-  margin-left: 70px;
+  margin-left: 30px;
   position: relative;
 }
 
@@ -11403,7 +11403,7 @@ section.height-auto {
 .about-wrapper .after {
   position: absolute;
   top: 10%;
-  left: -60px;
+  left: -70px;
   background: #FAD02C;
   box-shadow: 0 3px 80px rgba(173, 181, 189, 0.3), 0 0 10px rgba(173, 181, 189, 0.3) !important;
   width: 200px;
