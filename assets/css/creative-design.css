@@ -11275,7 +11275,7 @@ section.p-md {
   height: 400px ;
 }
 section.has-bg-img {
-  background-image: url(../imgs/bg-img-1.jpg);
+  background-image: url(../imgs/iiitacover.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 450px;
@@ -11399,7 +11399,11 @@ section.height-auto {
   padding: 30px;
   position: relative;
 }
-
+ol{
+  width: fit-content !important;
+    margin: auto !important;
+    text-align: left;
+}
 .about-wrapper .after {
   position: absolute;
   top: 10%;
