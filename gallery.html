@@ -14,6 +14,8 @@
     <!-- Bootstrap + Creative Design main styles -->
     <link rel="stylesheet" href="assets/css/creative-design.css">
 
+    <link rel="stylesheet" href="assets/css/gallery.css">
+
 </head>
 
 <body class="light-theme">
@@ -30,7 +32,7 @@
     </header> <!-- End Of Page Header -->
 
     <!-- main content -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="container align-center" style="max-width:100vw !important">
             <img src="./assets/imgs/gallery/IMG1.jpg" class="gallery-img" />
             <img src="./assets/imgs/gallery/IMG2.jpg" class="gallery-img" />
@@ -46,6 +48,181 @@
             <img src="./assets/imgs/gallery/img12.jpg" class="gallery-img" />
             <img src="./assets/imgs/gallery/img13.jpg" class="gallery-img" />
         </div>
+    </div> -->
+    <div class="container">
+        <br><br><br>
+        <div class="switch-radios-container switch-field">
+            <input type="radio" name="gallery-section-toggler" id="gallery-toggle" value="gallery-toggle" checked="">
+            <label for="gallery-toggle">Gallery</label>
+            <input type="radio" name="gallery-section-toggler" id="news-toggle" value="news-toggle">
+            <label for="news-toggle">News</label>
+            <!-- <input
+                  type="radio"
+                  name="gallery-section-toggler"
+                  id="eminents-toggle"
+                  value="eminents-toggle"
+                />
+                <label for="eminents-toggle">Eminents</label> -->
+        </div>
+        <div class="gallery-news-container">
+            <div class="gallery-container" id="gallery-container" style="display: flex;">
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-16.jpeg" loading="lazy"
+                        alt="Director MNNITA Prayagraj">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-15.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-14.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-13.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-12.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-11.jpg" loading="lazy"
+                        alt="Director IIITDM Jabalpur, <br> Director NIT Delhi">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-8.jpg" loading="lazy"
+                        alt="Chairman AICTE, <br> Chairman UGC">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-7.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+                <div class="gallery-item">
+                    <img id="myImg" class="ImgPopup" src="/src/images/gallery/gallery-6.jpg" loading="lazy"
+                        alt="Shri Atul Kothari ji, <br> National Secretary SSUN">
+                </div>
+                <div class="gallery-item">
+                    <img class="ImgPopup" src="/src/images/gallery/gallery-5.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+                <div class="gallery-item">
+                    <img class="ImgPopup" src="/src/images/gallery/gallery-4.jpg" loading="lazy"
+                        alt="Glimpses of 1st National Conference on FAP">
+                </div>
+            </div>
+            <div class="news-container" id="news-container" style="display: none;">
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/IMG1.jpg" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/IMG2.jpg" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img3.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img4.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img5.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img6.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img7.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img8.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img9.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img10.png" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img11.jpg" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img12.jpg" loading="lazy" alt="news Image">
+                </div>
+                <div class="news-item">
+                    <img class="ImgPopup" src="./assets/imgs/gallery/img13.jpg" loading="lazy" alt="news Image">
+                </div>
+            </div>
+        
+            <!-- <div
+                  class="container consultants-container eminents-container"
+                  id="eminents-container"
+                >
+                  <h4 class="text-center mb-4">Eminent Persons</h4>
+                  <div class="users mb-4">
+                    <div class="user-card">
+                      <div class="user-img">
+                        <img
+                          src="/src/images/nagabhusan.jpg"
+                          loading="lazy"
+                          width="200px"
+                          alt="Prof. P. Nagabhushan"
+                        />
+                      </div>
+                      <h5>Prof. P. Nagabhushan</h5>
+                      <p>Director, IIIT-Allahabad</p>
+                    </div>
+                    <div class="user-card">
+                      <div class="user-img">
+                        <img
+                          src="/src/images/DefaultUser.png"
+                          loading="lazy"
+                          width="200px"
+                          alt="Prof. Sandeep Shukla"
+                        />
+                      </div>
+                      <h5>Prof. Sandeep Shukla</h5>
+                      <p>CSE Dept. IIT Kanpur</p>
+                    </div>
+        
+                    <div class="user-card">
+                      <div class="user-img">
+                        <img
+                          src="/src/images/DefaultUser.png"
+                          loading="lazy"
+                          width="200px"
+                          alt="Prof. Unnat Pandit"
+                        />
+                      </div>
+                      <h5>Prof. Unnat Pandit</h5>
+                      <p>IPM Cell, JNU, New Delhi</p>
+                    </div>
+                    <div class="user-card">
+                      <div class="user-img">
+                        <img
+                          src="/src/images/DefaultUser.png"
+                          loading="lazy"
+                          width="200px"
+                          alt="Prof. Ajay kr. Sharma"
+                        />
+                      </div>
+                      <h5>Prof. Ajay kr. Sharma</h5>
+                      <p>Director, NIT Delhi</p>
+                    </div>
+                    <div class="user-card">
+                      <div class="user-img">
+                        <img
+                          src="/src/images/DefaultUser.png"
+                          loading="lazy"
+                          width="200px"
+                          alt="Prof. Badri Narayan"
+                        />
+                      </div>
+                      <h5>Prof. Badri Narayan</h5>
+                      <p>Director, GBPSSI, Prayagraj</p>
+                    </div>
+                  </div>
+                </div> -->
+        </div>
     </div>
     <!-- end of typography -->
 
@@ -55,6 +232,7 @@
     </div>
 
     <!-- core  -->
+    <script src="assets/js/gallery.js"></script>
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 </body>
