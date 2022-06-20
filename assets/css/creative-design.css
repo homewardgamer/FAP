@@ -11248,7 +11248,9 @@ nav.page-navbar.affix .navbar-brand .text-dark {
           justify-content: center;
   text-align: center;
   padding: 1rem;
-  background: #fdeca9 !important;
+  filter: brightness(0.8);
+  background: #efefef;
+  backdrop-filter: grayscale(1) contrast(3) blur(1px);
 }
 
 body,
